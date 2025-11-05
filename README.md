@@ -18,11 +18,11 @@ FinancePilot is an intelligent financial assistant that combines real-time stock
 *Natural language interface with AI-powered suggestions*
 
 ### Candlestick Chart Analysis
-![Candlestick Chart](demo_images/candlestick_chart.png)
+![Candlestick Chart](demo_images/candlestick.png)
 *Interactive candlestick charts with detailed metrics*
 
 ### Volume Analysis
-![Volume Chart](demo_images/volume_chart.png)
+![Volume Chart](demo_images/volume.png)
 *Trading volume visualization with AI insights*
 
 ### Market Overview with News

@@ -9,6 +9,28 @@ FinancePilot is an intelligent financial assistant that combines real-time stock
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Chat Interface
+![Chat Interface](demo_images/chat_interface.png)
+*Natural language interface with AI-powered suggestions*
+
+### Candlestick Chart Analysis
+![Candlestick Chart](demo_images/candlestick_chart.png)
+*Interactive candlestick charts with detailed metrics*
+
+### Volume Analysis
+![Volume Chart](demo_images/volume_chart.png)
+*Trading volume visualization with AI insights*
+
+### Market Overview
+![Market Overview](demo_images/market_overview.png)
+*Real-time market data with top gainers, losers, and most active stocks*
+
+</div>
+
 ## 🎯 What is FinancePilot?
 
 FinancePilot transforms how you interact with stock market data. Instead of navigating complex financial platforms or writing code to analyze stocks, simply ask questions in natural language:

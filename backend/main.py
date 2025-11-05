@@ -14,7 +14,7 @@ import hashlib
 
 load_dotenv()
 
-app = FastAPI(title="YFinance Chatbot API")
+app = FastAPI(title="FinancePilot API")
 
 # CORS middleware
 app.add_middleware(
@@ -671,7 +671,7 @@ def generate_suggestions(ticker: str, question: str) -> list:
 @app.get("/")
 def read_root():
     return {
-        "message": "YFinance Chatbot API - Powered by Gemini 2.0 Flash + OpenSearch Vector DB",
+        "message": "FinancePilot API - Powered by Gemini 2.0 Flash + OpenSearch Vector DB",
         "opensearch_status": "connected" if vector_db and vector_db.client else "disconnected"
     }
 

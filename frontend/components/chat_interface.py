@@ -14,7 +14,7 @@ def render_chat_messages():
     if not st.session_state.messages:
         st.markdown("""
         <div style="padding: 20px; background: linear-gradient(135deg, rgba(31,119,180,0.1) 0%, rgba(255,255,255,0.05) 100%); border-radius: 10px; border-left: 4px solid #1f77b4; margin: 20px 0;">
-            <h3 style="color: #1f77b4; margin-top: 0;">👋 Welcome to YFinance Chatbot!</h3>
+            <h3 style="color: #1f77b4; margin-top: 0;">👋 Welcome to FinancePilot!</h3>
             <p style="color: #ddd; line-height: 1.6;">
                 I'm your AI-powered financial assistant. I can help you with:
             </p>

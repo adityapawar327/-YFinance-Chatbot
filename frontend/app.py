@@ -1,4 +1,4 @@
-"""YFinance Chatbot - Main Application"""
+"""FinancePilot - Main Application"""
 import streamlit as st
 from components.sidebar import render_sidebar
 from components.market_overview import render_market_overview
@@ -7,7 +7,7 @@ from components.chat_interface import render_chat_messages, handle_chat_input
 
 # Page config
 st.set_page_config(
-    page_title="YFinance Chatbot",
+    page_title="FinancePilot",
     page_icon="📈",
     layout="wide"
 )
@@ -28,8 +28,8 @@ if "news_loaded" not in st.session_state:
     st.session_state.news_loaded = False
 
 # Title
-st.title("📈 YFinance Chatbot")
-st.markdown("Ask questions about stocks and get instant answers with interactive charts!")
+st.title("📈 FinancePilot")
+st.markdown("Your AI-powered financial assistant for stock market analysis and insights")
 
 # Create tabs
 tab1, tab2 = st.tabs(["💬 Chat", "📰 News & Market"])

@@ -1,4 +1,4 @@
-# YFinance Chatbot 📈
+# FinancePilot 📈
 
 An advanced AI-powered financial assistant for stock market analysis, news aggregation, and intelligent insights. Built with FastAPI, Streamlit, Plotly, OpenSearch, and Google Gemini 2.0 Flash.
 
@@ -25,7 +25,7 @@ An advanced AI-powered financial assistant for stock market analysis, news aggre
 ## Project Structure
 
 ```
-yfinance-chatbot/
+FinancePilot/
 ├── backend/
 │   ├── main.py                    # FastAPI server with caching & optimization
 │   ├── opensearch_client.py       # Vector database integration
